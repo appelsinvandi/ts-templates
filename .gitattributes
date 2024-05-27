@@ -1,0 +1,4 @@
+yarn.lock merge=binary linguist-generated
+
+.yarn/** merge=binary linguist-vendored
+.husky/** linguist-vendored

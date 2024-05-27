@@ -1,0 +1,46 @@
+name: Deploy GitHub Pages - react-vite
+description: Build and deploy a react-vite app template to GitHub Pages.
+
+inputs:
+  app_name:
+    description: 'The name of the app folder in apps/.'
+    required: true
+    default: 'react-vite'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+runs:
+  using: composite
+  environment:
+    name: github-pages
+    url: ${{ steps.deployment.outputs.page_url }}
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: 'lts/*'
+
+    - name: Install deps
+      run: yarn install --immutable
+      working-directory: apps/${{ inputs.app_name }}
+
+    - name: Build
+      run: yarn build --base "/${{ github.event.repository.name }}/"
+      working-directory: apps/${{ inputs.app_name }}
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './dist'
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4

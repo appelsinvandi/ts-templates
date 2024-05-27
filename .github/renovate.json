@@ -1,0 +1,31 @@
+{
+  "timezone": "Europe/Copenhagen",
+  "extends": [
+    ":automergeBranch",
+    ":automergePatch",
+    ":automergeStableNonMajor",
+    ":disableDependencyDashboard",
+    ":disableRateLimiting",
+    ":ignoreModulesAndTests",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":renovatePrefix",
+    ":semanticCommits",
+    ":semanticPrefixChore",
+    ":separateMajorReleases",
+    ":skipStatusChecks",
+    ":updateNotScheduled",
+    "group:allNonMajor",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor",
+    "workarounds:all"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major", "minor"],
+      "minimumReleaseAge": "3 days"
+    }
+  ],
+  "rangeStrategy": "bump"
+}

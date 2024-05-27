@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/vite-react",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}

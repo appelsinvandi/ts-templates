@@ -1,0 +1,17 @@
+{
+  "React Void Functional Component": {
+    "prefix": "vfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "import styles from './${TM_FILENAME_BASE}.module.scss'",
+      "",
+      "export type ${TM_FILENAME_BASE}Props = {}",
+      "export const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({ }) => {",
+      "  return <div className={styles.root}></div>",
+      "}",
+      ""
+    ],
+    "description": "React Void Functional Component"
+  },
+}

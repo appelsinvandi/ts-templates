@@ -1,0 +1,10 @@
+[
+  {
+    "action": "remove",
+    "files": [".github/renovate.json"]
+  },
+  {
+    "action": "remove",
+    "files": ["apps/node-app-basic", "apps/react-vite", "apps/solid-ja-vite"]
+  }
+]
