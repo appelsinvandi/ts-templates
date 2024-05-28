@@ -5,7 +5,7 @@
   },
   {
     "action": "remove",
-    "files": ["apps/node-app-basic", "apps/react-vite", "apps/solid-ja-vite", "apps/userscript-basic"]
+    "files": ["apps/node-app-basic", "apps/react-vite", "apps/solid-js-vite", "apps/userscript-basic"]
   },
   {
     "action": "remove",
