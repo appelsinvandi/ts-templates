@@ -4115,6 +4115,7 @@ __metadata:
     "@types/node": "npm:^20.12.12"
     change-case: "npm:^5.4.4"
     esbuild: "npm:^0.21.4"
+    rimraf: "npm:^5.0.7"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft

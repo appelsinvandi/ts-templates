@@ -7,13 +7,16 @@ import pkg from './package.json'
 
 const outDir = path.resolve(import.meta.dirname, 'dist')
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir)
-const outFile = `${snakeCase(pkg.name)}.user.js`
+const outFile = `${pkg.name
+  .split('/')
+  .map((e) => snakeCase(e))
+  .join('___')}.user.js`
 const outPath = path.resolve(outDir, outFile)
 if (fs.existsSync(outPath)) fs.unlinkSync(outPath)
 
 await buildScript({
   entryPoint: path.resolve(import.meta.dirname, 'src', 'index.mts'),
-  scriptName: pkg.name.replace(/^.+\//, ''),
+  scriptName: pkg.name,
   scriptDescription: pkg.description,
   scriptVersion: pkg.version,
   matchUrl: pkg.userscript.matchUrl,
@@ -50,7 +53,10 @@ export function GenerateUserscriptHead(opts: {
 
   return [
     '// ==UserScript==',
-    `// @name         ${capitalCase(opts.scriptName)}`,
+    `// @name         ${opts.scriptName
+      .split('/')
+      .map((e) => capitalCase(e))
+      .join(' - ')}`,
     '// @namespace    http://tampermonkey.net/',
     `// @version      ${opts.scriptVersion}`,
     `// @description  ${opts.scriptDescription}`,
