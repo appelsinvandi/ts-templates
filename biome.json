@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "ignore": [".vscode/", ".yarn/", "node_modules/"]
+    "ignore": [".vscode/", ".yarn/", "node_modules/", "dist/"]
   },
   "organizeImports": {
     "enabled": true

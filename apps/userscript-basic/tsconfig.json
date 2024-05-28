@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}
