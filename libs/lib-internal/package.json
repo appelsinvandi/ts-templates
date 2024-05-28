@@ -1,0 +1,12 @@
+{
+  "name": "lib-internal",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "default": "./src/index.mts"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "typescript": "^5.4.5"
+  }
+}

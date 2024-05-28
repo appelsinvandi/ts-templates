@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/recommended",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}
