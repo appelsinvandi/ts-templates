@@ -5,6 +5,10 @@
   },
   {
     "action": "remove",
-    "files": ["apps/node-app-basic", "apps/react-vite", "apps/solid-ja-vite"]
+    "files": ["apps/node-app-basic", "apps/react-vite", "apps/solid-ja-vite", "apps/userscript-basic"]
+  },
+  {
+    "action": "remove",
+    "files": ["libs/lib-basic", "libs/lib-internal"]
   }
 ]
