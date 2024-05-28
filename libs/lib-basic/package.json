@@ -1,0 +1,20 @@
+{
+  "name": "lib-basic",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "default": "./dist/index.mjs",
+    "types": "./dist/index.d.mts"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
+}
