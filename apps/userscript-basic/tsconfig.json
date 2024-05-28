@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node20",
   "compilerOptions": {
+    "lib": ["DOM"],
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
