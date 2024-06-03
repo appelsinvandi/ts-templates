@@ -1,9 +1,7 @@
 {
   "extends": "@tsconfig/recommended",
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "module": "node16",
+    "moduleResolution": "node16"
   }
 }

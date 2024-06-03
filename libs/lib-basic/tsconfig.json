@@ -5,9 +5,7 @@
     "outDir": "dist",
     "target": "es6",
     "declaration": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "module": "node16",
+    "moduleResolution": "node16"
   }
 }
