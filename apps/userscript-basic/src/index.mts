@@ -1,3 +1,5 @@
 main()
 
-async function main() {}
+async function main() {
+  console.log('Hello world')
+}
