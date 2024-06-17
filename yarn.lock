@@ -3019,7 +3019,7 @@ __metadata:
     scss: "npm:^0.2.4"
     typescript: "npm:^5.4.5"
     typescript-plugin-css-modules: "npm:^5.1.0"
-    vite: "npm:^5.3.0"
+    vite: "npm:^5.3.1"
     vite-tsconfig-paths: "npm:^4.3.2"
   languageName: unknown
   linkType: soft
@@ -3420,7 +3420,7 @@ __metadata:
     solid-js: "npm:^1.8.17"
     typescript: "npm:^5.4.5"
     typescript-plugin-css-modules: "npm:^5.1.0"
-    vite: "npm:^5.3.0"
+    vite: "npm:^5.3.1"
     vite-plugin-solid: "npm:^2.10.2"
     vite-tsconfig-paths: "npm:^4.3.2"
   languageName: unknown
@@ -3949,7 +3949,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.3.0":
+"vite@npm:^5.3.1":
   version: 5.3.1
   resolution: "vite@npm:5.3.1"
   dependencies:
