@@ -2632,7 +2632,7 @@ __metadata:
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/node": "npm:^20.14.9"
     npm-run-all: "npm:^4.1.5"
-    tsx: "npm:^4.15.7"
+    tsx: "npm:^4.15.9"
     typescript: "npm:^5.5.2"
   languageName: unknown
   linkType: soft
@@ -3417,7 +3417,7 @@ __metadata:
     "@tsconfig/recommended": "npm:^1.0.6"
     "@types/node": "npm:^20.14.9"
     scss: "npm:^0.2.4"
-    solid-js: "npm:^1.8.17"
+    solid-js: "npm:^1.8.18"
     typescript: "npm:^5.5.2"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^5.3.2"
@@ -3426,14 +3426,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.8.17":
-  version: 1.8.17
-  resolution: "solid-js@npm:1.8.17"
+"solid-js@npm:^1.8.18":
+  version: 1.8.18
+  resolution: "solid-js@npm:1.8.18"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^1.0.4"
     seroval-plugins: "npm:^1.0.3"
-  checksum: 10c0/a6f38f05a88841fc3936bdefb1511bf15a47a4234d2288e60508343732823c063422a0b302ebbf60e24e00718725a27a6d3e0be156605fcc8498ac6a81cac911
+  checksum: 10c0/6e31d9e09c2531446739d13cb14cbac6e9a8a09a574ed524d92c602c1ea61626b2d6d1f052a0e0d2b1b36a939be9a1aa08056e30e9b37317780e5d7ba9eaddda
   languageName: node
   linkType: hard
 
@@ -3707,9 +3707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.15.7":
-  version: 4.15.7
-  resolution: "tsx@npm:4.15.7"
+"tsx@npm:^4.15.9":
+  version: 4.15.9
+  resolution: "tsx@npm:4.15.9"
   dependencies:
     esbuild: "npm:~0.21.4"
     fsevents: "npm:~2.3.3"
@@ -3719,7 +3719,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10c0/e960f4ee084b48cd3183e65946725fd9b0de4afae32a0fd9cd47416a41259fb2c72838b7aeba26adaecc2d89d70e976add9722e72ea5c876b3b493f137cbbf12
+  checksum: 10c0/c4f6d4a033f19862099bfc716352b369bee10ee36e276c4892267dca5938fe98b17f544cc04505753ced7d6273aa3be4404d1a62135f6a74e1df1cef4752a04b
   languageName: node
   linkType: hard
 
