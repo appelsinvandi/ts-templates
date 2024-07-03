@@ -1520,7 +1520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.21.3, esbuild@npm:^0.21.5, esbuild@npm:~0.21.4":
+"esbuild@npm:^0.21.3, esbuild@npm:^0.21.5, esbuild@npm:~0.21.5":
   version: 0.21.5
   resolution: "esbuild@npm:0.21.5"
   dependencies:
@@ -2632,7 +2632,7 @@ __metadata:
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/node": "npm:^20.14.9"
     npm-run-all: "npm:^4.1.5"
-    tsx: "npm:^4.15.9"
+    tsx: "npm:^4.16.0"
     typescript: "npm:^5.5.3"
   languageName: unknown
   linkType: soft
@@ -3718,11 +3718,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.15.9":
-  version: 4.15.9
-  resolution: "tsx@npm:4.15.9"
+"tsx@npm:^4.16.0":
+  version: 4.16.2
+  resolution: "tsx@npm:4.16.2"
   dependencies:
-    esbuild: "npm:~0.21.4"
+    esbuild: "npm:~0.21.5"
     fsevents: "npm:~2.3.3"
     get-tsconfig: "npm:^4.7.5"
   dependenciesMeta:
@@ -3730,7 +3730,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10c0/c4f6d4a033f19862099bfc716352b369bee10ee36e276c4892267dca5938fe98b17f544cc04505753ced7d6273aa3be4404d1a62135f6a74e1df1cef4752a04b
+  checksum: 10c0/9df52264f88be00ca473e7d7eda43bb038cc09028514996b864db78645e9cd297c71485f0fdd4985464d6dc46424f8bef9f8c4bd56692c4fcf4d71621ae21763
   languageName: node
   linkType: hard
 
