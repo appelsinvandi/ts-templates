@@ -1,1 +1,1 @@
-yarn biome format --staged --write
+biome format --staged --write
