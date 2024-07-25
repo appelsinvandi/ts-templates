@@ -3606,19 +3606,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval-plugins@npm:^1.0.3":
-  version: 1.0.7
-  resolution: "seroval-plugins@npm:1.0.7"
+"seroval-plugins@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "seroval-plugins@npm:1.1.0"
   peerDependencies:
     seroval: ^1.0
-  checksum: 10c0/5d44efac320d5fee281d8f27d95abff75000f3e989684a65c3091b23a31cbf9a48045e20583ed73903a74a451900db476364cc0a20329bdc1db351e3fbe2c695
+  checksum: 10c0/bdbf2f9720d6a5b7a50f1f4cc6abd6be60ed8ddef1c8969763f280deda7772eb0735a31a42ffce7d8e0203d14546c96894b5fbc90ccdf292c51ef233ca3ccc29
   languageName: node
   linkType: hard
 
-"seroval@npm:^1.0.4":
-  version: 1.0.7
-  resolution: "seroval@npm:1.0.7"
-  checksum: 10c0/4fdbf89a4d3fa999e280ad6eb3c4627c1f34122f0f8ebd0bb415767c49abc03dcae2c57e8ae0d1ef23d55003a32c63b0da35012cd3295bbddb11c348461c8d70
+"seroval@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "seroval@npm:1.1.0"
+  checksum: 10c0/2d80188b6121b1b526a437422424af341018eefcdf9307ed588ae06c6ca2c78e908828c21d25cf04ef00d3eee1d87f47776385d8874ea15e6aec22cebceaec95
   languageName: node
   linkType: hard
 
@@ -3742,7 +3742,7 @@ __metadata:
     "@tsconfig/recommended": "npm:^1.0.7"
     "@types/node": "npm:^20.14.12"
     scss: "npm:^0.2.4"
-    solid-js: "npm:^1.8.18"
+    solid-js: "npm:^1.8.19"
     typescript: "npm:^5.5.4"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^5.3.4"
@@ -3751,14 +3751,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.8.18":
-  version: 1.8.18
-  resolution: "solid-js@npm:1.8.18"
+"solid-js@npm:^1.8.19":
+  version: 1.8.19
+  resolution: "solid-js@npm:1.8.19"
   dependencies:
     csstype: "npm:^3.1.0"
-    seroval: "npm:^1.0.4"
-    seroval-plugins: "npm:^1.0.3"
-  checksum: 10c0/6e31d9e09c2531446739d13cb14cbac6e9a8a09a574ed524d92c602c1ea61626b2d6d1f052a0e0d2b1b36a939be9a1aa08056e30e9b37317780e5d7ba9eaddda
+    seroval: "npm:^1.1.0"
+    seroval-plugins: "npm:^1.1.0"
+  checksum: 10c0/bca0189e158d9961c63e0e2e765f5531bbb748ac7f2aecbb6db968f8e936499bc5377e82a7c98f9afb5f419a177f79a044852ae3c902a1f85af21d2b5dc4d8cc
   languageName: node
   linkType: hard
 

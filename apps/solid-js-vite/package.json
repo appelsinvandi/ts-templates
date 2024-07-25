@@ -11,7 +11,7 @@
     "test:types": "tsc --noEmit"
   },
   "dependencies": {
-    "solid-js": "^1.8.18"
+    "solid-js": "^1.8.19"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
