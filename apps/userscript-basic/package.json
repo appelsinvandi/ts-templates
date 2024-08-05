@@ -19,6 +19,6 @@
     "zod": "^3.23.8"
   },
   "userscript": {
-    "matchUrl": "https://google.com/"
+    "matchUrl": "https://example.com/"
   }
 }
