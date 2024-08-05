@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy react app to GitHub Pages
-        uses: ./apps/react-vite/.github/actions/deploy-github-pages
+        uses: ./apps/react-vite/.github/actions/deploy-github-pages.yml
         with:
           app_name: react-vite
