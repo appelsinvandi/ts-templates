@@ -3742,7 +3742,7 @@ __metadata:
     "@tsconfig/recommended": "npm:^1.0.7"
     "@types/node": "npm:^20.14.14"
     scss: "npm:^0.2.4"
-    solid-js: "npm:^1.8.19"
+    solid-js: "npm:^1.8.20"
     typescript: "npm:^5.5.4"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^5.3.5"
@@ -3751,14 +3751,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.8.19":
-  version: 1.8.19
-  resolution: "solid-js@npm:1.8.19"
+"solid-js@npm:^1.8.20":
+  version: 1.8.20
+  resolution: "solid-js@npm:1.8.20"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^1.1.0"
     seroval-plugins: "npm:^1.1.0"
-  checksum: 10c0/bca0189e158d9961c63e0e2e765f5531bbb748ac7f2aecbb6db968f8e936499bc5377e82a7c98f9afb5f419a177f79a044852ae3c902a1f85af21d2b5dc4d8cc
+  checksum: 10c0/f62d35da5d4d59a658ad331f0972098a3693c855e52c19e904d97993863d92aa4b6eabb27d7ae48389535fafa7eae7edcfe7f09799f065743452dd7866d699ae
   languageName: node
   linkType: hard
 
