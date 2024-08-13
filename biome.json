@@ -16,7 +16,8 @@
     "rules": {
       "recommended": true,
       "complexity": {
-        "noBannedTypes": "warn"
+        "noBannedTypes": "warn",
+        "noForEach": "warn"
       },
       "style": {
         "noNonNullAssertion": "off",
