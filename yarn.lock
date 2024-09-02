@@ -1081,10 +1081,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@total-typescript/ts-reset@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@total-typescript/ts-reset@npm:0.6.0"
-  checksum: 10c0/7bfe874747b5d0c9a13b1bdc01ee27087622d98b19125185ccd9684c80a3b84575009af9be3fbe32e1c50badefa7b93fc1e77169f12e350ca5573128d89c08e2
+"@total-typescript/ts-reset@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@total-typescript/ts-reset@npm:0.6.1"
+  checksum: 10c0/c42c592054d33e86ac870065820888f89f05e47b2cfbc6bed95f3084b1f6d13b0231b5b8577eabf461aeb3f37c63ae3216f343b573f7136766eb750aac0dd1ab
   languageName: node
   linkType: hard
 
@@ -3185,7 +3185,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-app-basic@workspace:apps/node-app-basic"
   dependencies:
-    "@total-typescript/ts-reset": "npm:^0.6.0"
+    "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/node": "npm:^20.16.3"
     npm-run-all: "npm:^4.1.5"
@@ -3592,7 +3592,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-vite@workspace:apps/react-vite"
   dependencies:
-    "@total-typescript/ts-reset": "npm:^0.6.0"
+    "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/vite-react": "npm:^3.0.2"
     "@types/node": "npm:^20.16.3"
     "@types/react": "npm:^18.3.5"
@@ -3999,7 +3999,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "solid-js-vite@workspace:apps/solid-js-vite"
   dependencies:
-    "@total-typescript/ts-reset": "npm:^0.6.0"
+    "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/recommended": "npm:^1.0.7"
     "@types/node": "npm:^20.16.3"
     scss: "npm:^0.2.4"
@@ -4462,7 +4462,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "userscript-basic@workspace:apps/userscript-basic"
   dependencies:
-    "@total-typescript/ts-reset": "npm:^0.6.0"
+    "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/node": "npm:^20.16.3"
     "@types/tampermonkey": "npm:^5.0.3"
