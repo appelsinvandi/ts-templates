@@ -4003,7 +4003,7 @@ __metadata:
     "@tsconfig/recommended": "npm:^1.0.7"
     "@types/node": "npm:^20.16.10"
     scss: "npm:^0.2.4"
-    solid-js: "npm:^1.9.0"
+    solid-js: "npm:^1.9.1"
     typescript: "npm:^5.6.2"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^5.4.8"
@@ -4012,7 +4012,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.9.0":
+"solid-js@npm:^1.9.1":
   version: 1.9.1
   resolution: "solid-js@npm:1.9.1"
   dependencies:
