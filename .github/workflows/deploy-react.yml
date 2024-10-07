@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Deploy react app to GitHub Pages
         uses: ./apps/react-vite/.github/actions/deploy-to-github-pages
