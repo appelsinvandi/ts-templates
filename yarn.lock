@@ -1354,12 +1354,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.17.4":
-  version: 20.17.4
-  resolution: "@types/node@npm:20.17.4"
+"@types/node@npm:^20.17.5":
+  version: 20.17.5
+  resolution: "@types/node@npm:20.17.5"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/ce6e0a75bbc6b292db4c3bb72884f588753d8751699a3f4a60d5ba4ec1f0fa3d3f08547eacfaf9de517831960c1d6ca3430a28493b5d13b8beacb76e912da35c
+  checksum: 10c0/6e6bf7f84365a2ee95a369c48cdb47a93aae2b5029d19660183ba944d7bdbc193e54167076d64a3a11ff28e307b84c90eda350edf8e2029195d1fc27ae6055f4
   languageName: node
   linkType: hard
 
@@ -3419,7 +3419,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node20": "npm:^20.1.4"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^20.17.5"
     npm-run-all: "npm:^4.1.5"
     tsx: "npm:^4.19.2"
     typescript: "npm:^5.6.3"
@@ -3840,7 +3840,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/vite-react": "npm:^3.0.2"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^20.17.5"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
     "@vitejs/plugin-react": "npm:^4.3.3"
@@ -4247,7 +4247,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/recommended": "npm:^1.0.8"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^20.17.5"
     scss: "npm:^0.2.4"
     solid-js: "npm:^1.9.3"
     typescript: "npm:^5.6.3"
@@ -4724,7 +4724,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node20": "npm:^20.1.4"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^20.17.5"
     "@types/tampermonkey": "npm:^5.0.3"
     change-case: "npm:^5.4.4"
     esbuild: "npm:^0.24.0"
