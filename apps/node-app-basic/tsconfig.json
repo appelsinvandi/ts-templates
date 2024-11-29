@@ -1,9 +1,3 @@
 {
-  "extends": "@tsconfig/node20",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
-  }
+  "extends": "@tsconfig/node20"
 }
