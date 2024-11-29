@@ -1702,7 +1702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -2322,13 +2322,6 @@ __metadata:
     define-properties: "npm:^1.2.1"
     gopd: "npm:^1.0.1"
   checksum: 10c0/9d156f313af79d80b1566b93e19285f481c591ad6d0d319b4be5e03750d004dde40a39a0f26f7e635f9007a3600802f53ecd85a759b86f109e80a5f705e01846
-  languageName: node
-  linkType: hard
-
-"globrex@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "globrex@npm:0.1.2"
-  checksum: 10c0/a54c029520cf58bda1d8884f72bd49b4cd74e977883268d931fd83bcbd1a9eb96d57c7dbd4ad80148fb9247467ebfb9b215630b2ed7563b2a8de02e1ff7f89d1
   languageName: node
   linkType: hard
 
@@ -3618,7 +3611,6 @@ __metadata:
     typescript: "npm:^5.7.2"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^6.0.0"
-    vite-tsconfig-paths: "npm:^5.1.3"
   languageName: unknown
   linkType: soft
 
@@ -4027,7 +4019,6 @@ __metadata:
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^6.0.0"
     vite-plugin-solid: "npm:^2.10.2"
-    vite-tsconfig-paths: "npm:^5.1.3"
   languageName: unknown
   linkType: soft
 
@@ -4287,20 +4278,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfck@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "tsconfck@npm:3.0.3"
-  peerDependencies:
-    typescript: ^5.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  bin:
-    tsconfck: bin/tsconfck.js
-  checksum: 10c0/d45009230c4caa5fc765bdded96f3b8703a7cdd44a1d63024914b0fb1c4dabf9e94d28cc9f9edccaef9baa7b99adc963502d34943d82fcb07b92e1161ee03c56
-  languageName: node
-  linkType: hard
-
 "tsconfig-paths@npm:^4.2.0":
   version: 4.2.0
   resolution: "tsconfig-paths@npm:4.2.0"
@@ -4556,22 +4533,6 @@ __metadata:
     "@testing-library/jest-dom":
       optional: true
   checksum: 10c0/872a9d63d9d1ada29921de37f7420b0636ae7bc4c596072da0f098d03d932dee38b9e5f6ce88b42b4d3b19c9f06ceffcb86a335d2752784da18ca2827bf8ee56
-  languageName: node
-  linkType: hard
-
-"vite-tsconfig-paths@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "vite-tsconfig-paths@npm:5.1.3"
-  dependencies:
-    debug: "npm:^4.1.1"
-    globrex: "npm:^0.1.2"
-    tsconfck: "npm:^3.0.3"
-  peerDependencies:
-    vite: "*"
-  peerDependenciesMeta:
-    vite:
-      optional: true
-  checksum: 10c0/fb7480efa31fd50439f4a12c91bc953e5cc09d69fdc7eeb6ffff7cc796bc2c1f2c617c3abfdcbf5d7414848076cea9deb60bc002142f93b6e3131e5458760710
   languageName: node
   linkType: hard
 
