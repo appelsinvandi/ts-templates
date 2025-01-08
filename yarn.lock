@@ -4014,7 +4014,7 @@ __metadata:
     "@tsconfig/recommended": "npm:^1.0.8"
     "@types/node": "npm:^22.10.5"
     scss: "npm:^0.2.4"
-    solid-js: "npm:^1.9.3"
+    solid-js: "npm:^1.9.4"
     typescript: "npm:^5.7.2"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^6.0.7"
@@ -4022,14 +4022,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.9.3":
-  version: 1.9.3
-  resolution: "solid-js@npm:1.9.3"
+"solid-js@npm:^1.9.4":
+  version: 1.9.4
+  resolution: "solid-js@npm:1.9.4"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^1.1.0"
     seroval-plugins: "npm:^1.1.0"
-  checksum: 10c0/617758ce2080a873c675e7765f16459520dd0a5dabb6b562a0311abb5142c032e2f9bd370fdf3e45962c390193d968b8e5a327549c5819cb2277922f7bb23eee
+  checksum: 10c0/e85c9407f75ea4ba46efa9981cc2e926ff0c95eea226e287e28591abcdb7b4bd431bf41bdbf232fc7859cf4c7e5f2e50af0d2a018959af45afbe8e60f3fcdb4b
   languageName: node
   linkType: hard
 
