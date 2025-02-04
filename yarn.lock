@@ -1192,12 +1192,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.13.0":
-  version: 22.13.0
-  resolution: "@types/node@npm:22.13.0"
+"@types/node@npm:^22.13.1":
+  version: 22.13.1
+  resolution: "@types/node@npm:22.13.1"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/9cf6358b2863ae7bf9588ca1cc3d87f6a6289c3880e95a046a188760666870e2c12502df8b0a473bec8aa8ffee85e025d60382a6104b10f197120793235b2c22
+  checksum: 10c0/d4e56d41d8bd53de93da2651c0a0234e330bd7b1b6d071b1a94bd3b5ee2d9f387519e739c52a15c1faa4fb9d97e825b848421af4b2e50e6518011e7adb4a34b7
   languageName: node
   linkType: hard
 
@@ -3172,7 +3172,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node22": "npm:^22.0.0"
-    "@types/node": "npm:^22.13.0"
+    "@types/node": "npm:^22.13.1"
     npm-run-all: "npm:^4.1.5"
     tsx: "npm:^4.19.2"
     typescript: "npm:^5.7.3"
@@ -3600,7 +3600,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/vite-react": "npm:^3.4.0"
-    "@types/node": "npm:^22.13.0"
+    "@types/node": "npm:^22.13.1"
     "@types/react": "npm:^18.3.18"
     "@types/react-dom": "npm:^18.3.5"
     "@vitejs/plugin-react": "npm:^4.3.4"
@@ -4012,13 +4012,13 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/recommended": "npm:^1.0.8"
-    "@types/node": "npm:^22.13.0"
+    "@types/node": "npm:^22.13.1"
     scss: "npm:^0.2.4"
     solid-js: "npm:^1.9.4"
     typescript: "npm:^5.7.3"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^6.0.11"
-    vite-plugin-solid: "npm:^2.11.0"
+    vite-plugin-solid: "npm:^2.11.1"
   languageName: unknown
   linkType: soft
 
@@ -4481,7 +4481,7 @@ __metadata:
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/node22": "npm:^22.0.0"
-    "@types/node": "npm:^22.13.0"
+    "@types/node": "npm:^22.13.1"
     "@types/tampermonkey": "npm:^5.0.4"
     change-case: "npm:^5.4.4"
     esbuild: "npm:^0.24.2"
@@ -4515,9 +4515,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.11.0":
-  version: 2.11.0
-  resolution: "vite-plugin-solid@npm:2.11.0"
+"vite-plugin-solid@npm:^2.11.1":
+  version: 2.11.1
+  resolution: "vite-plugin-solid@npm:2.11.1"
   dependencies:
     "@babel/core": "npm:^7.23.3"
     "@types/babel__core": "npm:^7.20.4"
@@ -4532,7 +4532,7 @@ __metadata:
   peerDependenciesMeta:
     "@testing-library/jest-dom":
       optional: true
-  checksum: 10c0/033cb6a2d2f2d47b8278ad2559c56afab9d2283c1810417f33cc8a4ab04159fb0be0582d49d536116cde2346f6e896a6b1c4f756d03106f6c2c85930bbb73115
+  checksum: 10c0/ae72f1d0845d45cc2203ba7ef05feed845e4510753e9b17850bf03f160a3a50de800476dca37b63bc33b0a3015a8ee0ae9a0dc303da0a201b19ea7aed51fc822
   languageName: node
   linkType: hard
 
