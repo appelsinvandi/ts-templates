@@ -2019,7 +2019,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:~0.25.0":
+"esbuild@npm:^0.25.0, esbuild@npm:~0.25.0":
   version: 0.25.0
   resolution: "esbuild@npm:0.25.0"
   dependencies:
@@ -4513,7 +4513,7 @@ __metadata:
     "@types/node": "npm:^22.13.5"
     "@types/tampermonkey": "npm:^5.0.4"
     change-case: "npm:^5.4.4"
-    esbuild: "npm:^0.24.2"
+    esbuild: "npm:^0.25.0"
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.7.3"
     zod: "npm:^3.24.2"
