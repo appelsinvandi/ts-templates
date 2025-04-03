@@ -20,7 +20,7 @@
     "scss": "^0.2.4",
     "typescript": "^5.7.3",
     "typescript-plugin-css-modules": "^5.1.0",
-    "vite": "^6.2.4",
+    "vite": "^6.2.5",
     "vite-plugin-solid": "^2.11.6"
   }
 }
