@@ -4,7 +4,7 @@ import { URL } from 'node:url'
 import { capitalCase, snakeCase } from 'change-case'
 import esbuild from 'esbuild'
 import { z } from 'zod'
-import pkg from './package.json'
+import pkg from './package.json' with { type: 'json' }
 
 const pkgInfoSchema = z.object({
   name: z
