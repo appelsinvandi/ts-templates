@@ -8,20 +8,20 @@ import pkg from './package.json'
 
 const pkgInfoSchema = z.object({
   name: z
-    .string({ message: 'Please add the "name" field to your "package.json" file.' })
-    .min(1, { message: 'Please add the "name" field to your "package.json" file.' }),
+    .string({ error: 'Please add the "name" field to your "package.json" file.' })
+    .min(1, { error: 'Please add the "name" field to your "package.json" file.' }),
   description: z
-    .string({ message: 'Please add the "description" field to your "package.json" file.' })
-    .min(1, { message: 'Please add the "description" field to your "package.json" file.' }),
+    .string({ error: 'Please add the "description" field to your "package.json" file.' })
+    .min(1, { error: 'Please add the "description" field to your "package.json" file.' }),
   version: z
-    .string({ message: 'Please add the "version" field to your "package.json" file.' })
-    .regex(/^\d+\.\d+\.\d+$/, { message: 'Please use a valid semver version in your "package.json" file.' }),
+    .string({ error: 'Please add the "version" field to your "package.json" file.' })
+    .regex(/^\d+\.\d+\.\d+$/, { error: 'Please use a valid semver version in your "package.json" file.' }),
   userscript: z.object({
-    homepage: z.string().url().optional(),
-    downloadUrl: z.string().url().optional(),
-    updateUrl: z.string().url().optional(),
+    homepage: z.url().optional(),
+    downloadUrl: z.url().optional(),
+    updateUrl: z.url().optional(),
     matchUrl: z.string({
-      message: 'Please add the "userscript.matchUrl" field to your "package.json" file.',
+      error: 'Please add the "userscript.matchUrl" field to your "package.json" file.',
     }),
     grants: z
       .enum([
@@ -58,7 +58,7 @@ const pkgInfoSchema = z.object({
       ])
       .array()
       .refine((v) => v.filter((e, i, a) => a.indexOf(e) !== i).length === 0, {
-        message: 'Please ensure that all "userscript.grants" values are unique.',
+        error: 'Please ensure that all "userscript.grants" values are unique.',
       })
       .optional(),
   }),
