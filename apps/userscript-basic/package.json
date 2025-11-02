@@ -13,7 +13,7 @@
     "@types/node": "^22.18.13",
     "@types/tampermonkey": "^5.0.5",
     "change-case": "^5.4.4",
-    "esbuild": "^0.25.11",
+    "esbuild": "^0.25.12",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.3",
     "zod": "^4.1.12"
