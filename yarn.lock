@@ -1414,10 +1414,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:^1.0.11":
-  version: 1.0.11
-  resolution: "@tsconfig/recommended@npm:1.0.11"
-  checksum: 10c0/b1e7c8cc50b07cd838271edeb277365ca06ca6816dcd5877be4e8e38143db6be39c1fdc80350a8946ae5022fcda4c457d6b5885430561eecf67d4dbae2ab8bfc
+"@tsconfig/recommended@npm:^1.0.12":
+  version: 1.0.12
+  resolution: "@tsconfig/recommended@npm:1.0.12"
+  checksum: 10c0/ab548b08d4a58d0ea6e8a7532c786dccc319f82366b41e487dca3a2e0c01522857698ca32ca3a7bba428e21b0ce52842910c50faab666b4b0e9743b62a5c7d73
   languageName: node
   linkType: hard
 
@@ -3265,7 +3265,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lib-basic@workspace:libs/lib-basic"
   dependencies:
-    "@tsconfig/recommended": "npm:^1.0.11"
+    "@tsconfig/recommended": "npm:^1.0.12"
     rimraf: "npm:^6.1.0"
     typescript: "npm:^5.9.3"
   languageName: unknown
@@ -3275,7 +3275,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lib-internal@workspace:libs/lib-internal"
   dependencies:
-    "@tsconfig/recommended": "npm:^1.0.11"
+    "@tsconfig/recommended": "npm:^1.0.12"
     typescript: "npm:^5.9.3"
   languageName: unknown
   linkType: soft
@@ -4428,7 +4428,7 @@ __metadata:
   resolution: "solid-js-vite@workspace:apps/solid-js-vite"
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
-    "@tsconfig/recommended": "npm:^1.0.11"
+    "@tsconfig/recommended": "npm:^1.0.12"
     "@types/node": "npm:^22.19.0"
     scss: "npm:^0.2.4"
     solid-js: "npm:^1.9.10"
