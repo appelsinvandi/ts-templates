@@ -4,7 +4,7 @@
     "apps/*",
     "libs/*"
   ],
-  "packageManager": "yarn@4.14.0",
+  "packageManager": "yarn@4.14.1",
   "scripts": {
     "postinstall": "husky"
   },
