@@ -11,8 +11,8 @@
     "test:types": "tsc --noEmit"
   },
   "dependencies": {
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
