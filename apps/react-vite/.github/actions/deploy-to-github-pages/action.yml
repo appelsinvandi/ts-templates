@@ -22,7 +22,7 @@ runs:
       uses: actions/checkout@v5
 
     - name: Setup Pages
-      uses: actions/configure-pages@v5
+      uses: actions/configure-pages@v6
 
     - name: Setup Node.js environment
       uses: actions/setup-node@v6
