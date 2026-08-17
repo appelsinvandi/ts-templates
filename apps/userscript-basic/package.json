@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
-    "@tsconfig/node22": "^22.0.5",
+    "@tsconfig/node22": "^22.0.6",
     "@types/node": "^22.19.21",
     "@types/tampermonkey": "^5.0.5",
     "change-case": "^5.4.4",
