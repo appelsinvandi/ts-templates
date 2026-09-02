@@ -1,9 +1,11 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { URL } from 'node:url'
+
 import { capitalCase, snakeCase } from 'change-case'
 import esbuild from 'esbuild'
 import { z } from 'zod'
+
 import pkg from './package.json' with { type: 'json' }
 
 const pkgInfoSchema = z.object({
