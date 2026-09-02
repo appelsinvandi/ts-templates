@@ -1,8 +1,8 @@
 {
   "name": "userscript-basic",
-  "description": "Basic userscript",
   "version": "1.0.0",
   "private": true,
+  "description": "Basic userscript",
   "type": "module",
   "scripts": {
     "build": "rimraf dist && tsx ./build.mts"

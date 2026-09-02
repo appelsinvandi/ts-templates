@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "biomejs.biome",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "oxc.oxc-vscode"
   ]
 }

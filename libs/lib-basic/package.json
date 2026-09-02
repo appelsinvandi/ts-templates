@@ -1,14 +1,14 @@
 {
   "name": "lib-basic",
   "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "exports": {
     "default": "./dist/index.mjs",
     "types": "./dist/index.d.mts"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "rimraf dist && tsc"
   },

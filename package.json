@@ -4,12 +4,18 @@
     "apps/*",
     "libs/*"
   ],
-  "packageManager": "yarn@4.18.0",
   "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
     "postinstall": "husky"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.11",
-    "husky": "^9.1.7"
-  }
+    "husky": "^9.1.7",
+    "lint-staged": "^17.4.1",
+    "oxfmt": "^0.66.0",
+    "oxlint": "^1.80.0"
+  },
+  "packageManager": "yarn@4.18.0"
 }
