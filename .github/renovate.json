@@ -22,11 +22,6 @@
     "helpers:disableTypesNodeMajor",
     "workarounds:all"
   ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "minimumReleaseAge": "3 days"
-    }
-  ],
+  "minimumReleaseAge": "3 days",
   "rangeStrategy": "bump"
 }
