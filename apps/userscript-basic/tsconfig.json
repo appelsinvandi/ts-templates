@@ -2,6 +2,7 @@
   "extends": "@tsconfig/node26",
   "compilerOptions": {
     "lib": ["DOM"],
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true
   }
 }
