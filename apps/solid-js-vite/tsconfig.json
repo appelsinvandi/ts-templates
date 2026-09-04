@@ -11,6 +11,7 @@
     "jsxImportSource": "solid-js",
     "types": ["vite/client"],
     "plugins": [{ "name": "typescript-plugin-css-modules" }],
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }

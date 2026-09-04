@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node26",
   "compilerOptions": {
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }
