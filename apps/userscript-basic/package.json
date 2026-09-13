@@ -16,7 +16,7 @@
     "esbuild": "^0.28.2",
     "rimraf": "^6.1.3",
     "typescript": "^7.0.2",
-    "zod": "^4.5.4"
+    "zod": "^4.6.1"
   },
   "userscript": {
     "matchUrl": "https://example.com/"
