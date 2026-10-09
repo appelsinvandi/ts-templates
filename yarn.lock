@@ -3731,7 +3731,7 @@ __metadata:
     scss: "npm:^0.2.4"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.2.0"
-    vite: "npm:^8.3.2"
+    vite: "npm:^8.3.3"
   languageName: unknown
   linkType: soft
 
@@ -4116,7 +4116,7 @@ __metadata:
     solid-js: "npm:^1.9.15"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.2.0"
-    vite: "npm:^8.3.2"
+    vite: "npm:^8.3.3"
     vite-plugin-solid: "npm:^2.11.14"
   languageName: unknown
   linkType: soft
@@ -4783,9 +4783,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^8.3.2":
-  version: 8.3.2
-  resolution: "vite@npm:8.3.2"
+"vite@npm:^8.3.3":
+  version: 8.3.3
+  resolution: "vite@npm:8.3.3"
   dependencies:
     fsevents: "npm:~2.3.3"
     lightningcss: "npm:^1.33.0"
@@ -4836,7 +4836,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/bc2dc5b9077624686a0e4ddfdbfca9d35bf97a32c53966bf1cdd7f355a8f2c488c0422d1b02328a959cfd06b490f98c7e24938f8a251a1039adf2219f2da552e
+  checksum: 10c0/a1fa945ad1dd98d43e45d491eee11505083b19e00f8c5549cd0771273717f7bdb431eef71ef3568d1effa6ba63719811e5151f3fbec84be5a017d4975470a0d9
   languageName: node
   linkType: hard
 
