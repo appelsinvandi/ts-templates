@@ -16,12 +16,19 @@
     ":separateMajorReleases",
     ":skipStatusChecks",
     ":updateNotScheduled",
-    "group:allNonMajor",
     "group:monorepos",
     "group:recommended",
     "helpers:disableTypesNodeMajor",
     "workarounds:all"
   ],
   "minimumReleaseAge": "3 days",
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "description": "oxfmt: minimal config, treat 0.x minors as safe and automerge them",
+      "matchPackageNames": ["oxfmt"],
+      "matchUpdateTypes": ["minor"],
+      "automerge": true
+    }
+  ]
 }
