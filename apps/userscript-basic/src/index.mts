@@ -1,4 +1,4 @@
-main()
+void main()
 
 async function main() {
   console.log('Hello world')

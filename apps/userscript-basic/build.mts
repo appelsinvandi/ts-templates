@@ -90,10 +90,10 @@ const ctx = await esbuild.context({
   sourcemap: 'inline',
   format: 'iife',
 })
-const _rebuildRes = await ctx.rebuild()
-const buildOutput = fs.readFileSync(outPath)
+await ctx.rebuild()
+const buildOutput = fs.readFileSync(outPath, 'utf8')
 fs.writeFileSync(outPath, `${GenerateUserscriptHead(pkgInfo.data)}\n\n${buildOutput}`)
-ctx.dispose()
+void ctx.dispose()
 
 export function GenerateUserscriptHead(pkgInfo: typeof pkgInfoSchema._output) {
   const host = new URL(pkgInfo.userscript.matchUrl)
@@ -114,7 +114,7 @@ export function GenerateUserscriptHead(pkgInfo: typeof pkgInfoSchema._output) {
     pkgInfo.userscript.updateUrl ? ['updateURL', pkgInfo.userscript.updateUrl] : null,
     ['run-at', 'document-idle'],
     ['match', pkgInfo.userscript.matchUrl],
-    ['icon', `https://www.google.com/s2/favicons?domain=${host}`],
+    ['icon', `https://www.google.com/s2/favicons?domain=${host.hostname}`],
     ...(pkgInfo.userscript.grants?.map((e) => ['grant', e] as const) ?? []),
   ]
 
