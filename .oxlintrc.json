@@ -11,5 +11,7 @@
   "env": {
     "builtin": true
   },
-  "options": {}
+  "options": {
+    "typeAware": true
+  }
 }

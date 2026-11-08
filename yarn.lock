@@ -681,6 +681,48 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oxlint-tsgolint/darwin-arm64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/darwin-arm64@npm:7.0.2006"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxlint-tsgolint/darwin-x64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/darwin-x64@npm:7.0.2006"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@oxlint-tsgolint/linux-arm64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/linux-arm64@npm:7.0.2006"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxlint-tsgolint/linux-x64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/linux-x64@npm:7.0.2006"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@oxlint-tsgolint/win32-arm64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/win32-arm64@npm:7.0.2006"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxlint-tsgolint/win32-x64@npm:7.0.2006":
+  version: 7.0.2006
+  resolution: "@oxlint-tsgolint/win32-x64@npm:7.0.2006"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@oxlint/binding-android-arm-eabi@npm:1.91.0":
   version: 1.91.0
   resolution: "@oxlint/binding-android-arm-eabi@npm:1.91.0"
@@ -3365,13 +3407,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ometa@npm:0.2.2":
-  version: 0.2.2
-  resolution: "ometa@npm:0.2.2"
-  checksum: 10c0/6d834b01cf92e5020c63d9a2c2cbfa131b7e03c1ce78cbac42263e93a57dd33d3d8f10c96d8bce4721513f1d09e147891ac33951da6ea1c77d14cca3eb652283
-  languageName: node
-  linkType: hard
-
 "once@npm:^1.3.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
@@ -3458,6 +3493,35 @@ __metadata:
   bin:
     oxfmt: bin/oxfmt
   checksum: 10c0/2144fbbe1dae5c22cc831ad93fd918b005b3b2aab79a0a78e89822916eed7034a3640a3009e4121adab5ca681c24b7e0b243375fb05ec6f7a7b74021aaa80791
+  languageName: node
+  linkType: hard
+
+"oxlint-tsgolint@npm:^7.0.2006":
+  version: 7.0.2006
+  resolution: "oxlint-tsgolint@npm:7.0.2006"
+  dependencies:
+    "@oxlint-tsgolint/darwin-arm64": "npm:7.0.2006"
+    "@oxlint-tsgolint/darwin-x64": "npm:7.0.2006"
+    "@oxlint-tsgolint/linux-arm64": "npm:7.0.2006"
+    "@oxlint-tsgolint/linux-x64": "npm:7.0.2006"
+    "@oxlint-tsgolint/win32-arm64": "npm:7.0.2006"
+    "@oxlint-tsgolint/win32-x64": "npm:7.0.2006"
+  dependenciesMeta:
+    "@oxlint-tsgolint/darwin-arm64":
+      optional: true
+    "@oxlint-tsgolint/darwin-x64":
+      optional: true
+    "@oxlint-tsgolint/linux-arm64":
+      optional: true
+    "@oxlint-tsgolint/linux-x64":
+      optional: true
+    "@oxlint-tsgolint/win32-arm64":
+      optional: true
+    "@oxlint-tsgolint/win32-x64":
+      optional: true
+  bin:
+    tsgolint: ./bin/tsgolint.js
+  checksum: 10c0/ee532b7ca42bc373b019eaa79bf899e925b86ad74d3fe4368528b950a397991e0ac78562d1a01b6fe5f6083d12588c18a69b9a0410ae240bf8cddf8e2e6c117f
   languageName: node
   linkType: hard
 
@@ -3826,7 +3890,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.3.1"
     react-dom: "npm:^19.3.1"
-    scss: "npm:^0.2.4"
+    sass: "npm:^1.107.1"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.3.0"
     vite: "npm:^8.3.6"
@@ -4010,7 +4074,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.106.1":
+"sass@npm:^1.106.1, sass@npm:^1.107.1":
   version: 1.107.1
   resolution: "sass@npm:1.107.1"
   dependencies:
@@ -4038,15 +4102,6 @@ __metadata:
   version: 0.28.0
   resolution: "scheduler@npm:0.28.0"
   checksum: 10c0/783c8e5ce89d41273a02ed6dc0e3d24bd60e05c9e8f7e3adfc6c82e7c69935500d90e343f1ee26d592fc7504e8a2532573c6368def3e93bfe812391fa53efaf4
-  languageName: node
-  linkType: hard
-
-"scss@npm:^0.2.4":
-  version: 0.2.4
-  resolution: "scss@npm:0.2.4"
-  dependencies:
-    ometa: "npm:0.2.2"
-  checksum: 10c0/41aa26a7d6baaa1b264c3bc6005f865ceb895050ef62563368491db12b63fda7fc73a46dbe129f68255abdc8aab9c6ef83f8a5dfda0f57857e8cf96846e92f3e
   languageName: node
   linkType: hard
 
@@ -4212,7 +4267,8 @@ __metadata:
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/recommended": "npm:^1.0.13"
     "@types/node": "npm:^22.20.5"
-    scss: "npm:^0.2.4"
+    npm-run-all: "npm:^4.1.5"
+    sass: "npm:^1.107.1"
     solid-js: "npm:^1.9.18"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.3.0"
@@ -5062,6 +5118,7 @@ __metadata:
     lint-staged: "npm:^17.6.0"
     oxfmt: "npm:^0.76.0"
     oxlint: "npm:^1.91.0"
+    oxlint-tsgolint: "npm:^7.0.2006"
   languageName: unknown
   linkType: soft
 
