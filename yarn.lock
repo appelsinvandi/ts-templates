@@ -4286,7 +4286,7 @@ __metadata:
     "@types/node": "npm:^22.20.5"
     npm-run-all: "npm:^4.1.5"
     sass: "npm:^1.108.2"
-    solid-js: "npm:^1.9.18"
+    solid-js: "npm:^1.9.19"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.3.0"
     vite: "npm:^8.3.7"
@@ -4294,14 +4294,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.9.18":
-  version: 1.9.18
-  resolution: "solid-js@npm:1.9.18"
+"solid-js@npm:^1.9.19":
+  version: 1.9.19
+  resolution: "solid-js@npm:1.9.19"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:~1.6.11"
     seroval-plugins: "npm:~1.6.8"
-  checksum: 10c0/f7693829bdbb33f846bb72a8fcb2e6fa6894bbe0ef8152493087d1a193ea3600060df063b23957670fd02ba1fb1cf73bb0a2a810866c1e77ad9119fb2021d3f7
+  checksum: 10c0/5a42a8d818c1deb9b13d78918d4cc35689e1f04bed5084f3b8bb88938a9bf74ce5f06fb081111c11ded149e02bef23334492541570d0d1d475ec3e6ed05ff512
   languageName: node
   linkType: hard
 
