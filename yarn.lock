@@ -1130,10 +1130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/vite-react@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "@tsconfig/vite-react@npm:8.1.1"
-  checksum: 10c0/2b5680c49cb2f0fe96bd91e799a8416855fae24aac24ae5c796928b3d13263e600e629d8e895531a5d6b618ad0e7e91362d07ce1be8b57737071a4c7ec359df5
+"@tsconfig/vite-react@npm:^8.1.2":
+  version: 8.1.2
+  resolution: "@tsconfig/vite-react@npm:8.1.2"
+  checksum: 10c0/649bc3a4a1a32989bfe70eb648c1586a0a08c4426ed0f15ac3a6d55adba9a59537d0cfd52b6dd618b173e7e959bfed1402993abfaa6fa2050c735633c65aebcf
   languageName: node
   linkType: hard
 
@@ -3882,7 +3882,7 @@ __metadata:
   resolution: "react-vite@workspace:apps/react-vite"
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
-    "@tsconfig/vite-react": "npm:^8.1.1"
+    "@tsconfig/vite-react": "npm:^8.1.2"
     "@types/node": "npm:^22.20.5"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"
