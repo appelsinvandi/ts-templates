@@ -1116,10 +1116,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node26@npm:^26.0.1":
-  version: 26.0.1
-  resolution: "@tsconfig/node26@npm:26.0.1"
-  checksum: 10c0/f2cfc7bde1f4649f0bde8bc9d1358e17e5f51ccbdf02d79b6d40c3a552fe482d3393bcbfca4e46825195a4eeb052cdd9b89ddc2b57673f94f8ef1aa620230b1e
+"@tsconfig/node26@npm:^26.0.2":
+  version: 26.0.2
+  resolution: "@tsconfig/node26@npm:26.0.2"
+  checksum: 10c0/8ffd2ad1a67cf804c553e82da6422c544d2d047eb6a40b9a0cd9066440291b1472da2aa53c3ae6957e4f7f3d8d0b181461918e078ac0a689271e8bfd10f94406
   languageName: node
   linkType: hard
 
@@ -3302,7 +3302,7 @@ __metadata:
   resolution: "node-app-basic@workspace:apps/node-app-basic"
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
-    "@tsconfig/node26": "npm:^26.0.1"
+    "@tsconfig/node26": "npm:^26.0.2"
     "@types/node": "npm:^26.6.6"
     npm-run-all: "npm:^4.1.5"
     tsx: "npm:^4.23.15"
@@ -4884,7 +4884,7 @@ __metadata:
   resolution: "userscript-basic@workspace:apps/userscript-basic"
   dependencies:
     "@total-typescript/ts-reset": "npm:^0.6.1"
-    "@tsconfig/node26": "npm:^26.0.1"
+    "@tsconfig/node26": "npm:^26.0.2"
     "@types/node": "npm:^26.6.6"
     "@types/tampermonkey": "npm:^5.5.0"
     change-case: "npm:^5.4.4"
