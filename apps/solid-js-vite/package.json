@@ -15,8 +15,6 @@
     "solid-js": "^2.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.13",
-    "@solidjs/babel-plugin": "^2.0.1",
     "@solidjs/vite-plugin": "^3.0.1",
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/recommended": "^1.0.14",
