@@ -1,4 +1,3 @@
-/* @refresh reload */
 import './index.scss'
 import { render } from '@solidjs/web'
 
