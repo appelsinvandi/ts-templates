@@ -7,8 +7,8 @@
       "import styles from './${TM_FILENAME_BASE}.module.scss'",
       "",
       "export type ${TM_FILENAME_BASE}Props = {}",
-      "export const ${TM_FILENAME_BASE}: Component<${TM_FILENAME_BASE}Props> = ({ }) => {",
-      "  return <div className={styles.root}></div>",
+      "export const ${TM_FILENAME_BASE}: Component<${TM_FILENAME_BASE}Props> = () => {",
+      "  return <div class={styles.root}></div>",
       "}",
       ""
     ],
