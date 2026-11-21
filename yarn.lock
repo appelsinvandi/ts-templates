@@ -1109,6 +1109,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@solidjs/signals@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@solidjs/signals@npm:2.0.1"
+  checksum: 10c0/49783ae7c9199a9529d4ce406983a4ae6054a63a538a55fc9b500439b53e8f098cce8f0acbe228d299717cc74195748c918ee1737c93f7f7270355cd6893092f
+  languageName: node
+  linkType: hard
+
 "@total-typescript/ts-reset@npm:^0.6.1":
   version: 0.6.1
   resolution: "@total-typescript/ts-reset@npm:0.6.1"
@@ -1748,13 +1755,6 @@ __metadata:
   bin:
     cssesc: bin/cssesc
   checksum: 10c0/6bcfd898662671be15ae7827120472c5667afb3d7429f1f917737f3bf84c4176003228131b643ae74543f17a394446247df090c597bb9a728cce298606ed0aa7
-  languageName: node
-  linkType: hard
-
-"csstype@npm:^3.1.0":
-  version: 3.1.3
-  resolution: "csstype@npm:3.1.3"
-  checksum: 10c0/80c089d6f7e0c5b2bd83cf0539ab41474198579584fa10d86d0cafe0642202343cbc119e076a0b1aece191989477081415d66c9fefbf3c957fc2fc4b7009f248
   languageName: node
   linkType: hard
 
@@ -4149,19 +4149,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval-plugins@npm:~1.6.8":
-  version: 1.6.8
-  resolution: "seroval-plugins@npm:1.6.8"
+"seroval-plugins@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "seroval-plugins@npm:1.8.0"
   peerDependencies:
-    seroval: ^1.0
-  checksum: 10c0/1510c7b977bc4e3b1a1dd2841e600ba555ac02e74a0ea0378a782dc821fb11b3578b288a4aed7a5ead9998d0a6a3f8f5ee94338a949902cbb86e11fcf0ec8949
+    seroval: ^1.8.0
+  checksum: 10c0/765c5e1a3f05b8688259fcaea4dbb65f640caeb78e7afba77a2465141e9138fc9a1c11bef5a102f4482cabc5ef61617eeed8c51e0392472ea9c7bad12f50b80c
   languageName: node
   linkType: hard
 
-"seroval@npm:~1.6.11":
-  version: 1.6.12
-  resolution: "seroval@npm:1.6.12"
-  checksum: 10c0/f13160fe35803d3b12fb9bc161a06deee1e5b91b2773de9ea5cec5001de4f77a3c89b25f163f2f8577f9c9eadfe6ec9ada13eaa2debdf0205553cc8cb059083c
+"seroval@npm:^1.8.0":
+  version: 1.8.2
+  resolution: "seroval@npm:1.8.2"
+  checksum: 10c0/30e7f1bcd946e7807c4e500958463929cc4c9105d6ed317dc3fb1960b4db22aa6fd74654acce061ae8f7f9e5b6b902db2a6caeb0df28851e9f21fc348231aec3
   languageName: node
   linkType: hard
 
@@ -4286,7 +4286,7 @@ __metadata:
     "@types/node": "npm:^22.20.5"
     npm-run-all: "npm:^4.1.5"
     sass: "npm:^1.108.2"
-    solid-js: "npm:^1.9.19"
+    solid-js: "npm:^2.0.1"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.3.0"
     vite: "npm:^8.3.8"
@@ -4294,14 +4294,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^1.9.19":
-  version: 1.9.19
-  resolution: "solid-js@npm:1.9.19"
+"solid-js@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "solid-js@npm:2.0.1"
   dependencies:
-    csstype: "npm:^3.1.0"
-    seroval: "npm:~1.6.11"
-    seroval-plugins: "npm:~1.6.8"
-  checksum: 10c0/5a42a8d818c1deb9b13d78918d4cc35689e1f04bed5084f3b8bb88938a9bf74ce5f06fb081111c11ded149e02bef23334492541570d0d1d475ec3e6ed05ff512
+    "@solidjs/signals": "npm:^2.0.1"
+    seroval: "npm:^1.8.0"
+    seroval-plugins: "npm:^1.8.0"
+  checksum: 10c0/87f4a28b0be9ca110d80378225976d440500817d24ad7afd42fe58948eb20ec99a2b462e0bee90b7027198c6db88c9f33c9725a7d1924c879dc558be5e5fefef
   languageName: node
   linkType: hard
 
