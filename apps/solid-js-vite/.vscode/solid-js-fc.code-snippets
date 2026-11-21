@@ -2,16 +2,16 @@
   "SolidJS Functional Component": {
     "prefix": "fc",
     "body": [
-      "import { Component } from 'solid-js'",
+      "import { ParentComponent } from 'solid-js'",
       "",
       "import styles from './${TM_FILENAME_BASE}.module.scss'",
       "",
       "export type ${TM_FILENAME_BASE}Props = {}",
-      "export const ${TM_FILENAME_BASE}: Component<${TM_FILENAME_BASE}Props> = ({ children }) => {",
-      "  return <div className={styles.root}>{children}</div>",
+      "export const ${TM_FILENAME_BASE}: ParentComponent<${TM_FILENAME_BASE}Props> = (props) => {",
+      "  return <div class={styles.root}>{props.children}</div>",
       "}",
       ""
     ],
-    "description": "React Functional Component"
+    "description": "SolidJS Functional Component"
   },
 }

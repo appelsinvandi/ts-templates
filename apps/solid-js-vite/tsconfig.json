@@ -8,7 +8,7 @@
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsxImportSource": "@solidjs/web",
     "types": ["vite/client"],
     "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "allowImportingTsExtensions": true,
