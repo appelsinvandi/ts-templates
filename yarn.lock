@@ -999,16 +999,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solidjs/web@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@solidjs/web@npm:2.0.2"
+"@solidjs/web@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@solidjs/web@npm:2.0.3"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^1.8.0"
     seroval-plugins: "npm:^1.8.0"
   peerDependencies:
-    solid-js: ^2.0.2
-  checksum: 10c0/e078fadf5d6d22178e1cb5ad46514f7c26d3b6e2b8b7681660f37d9549d64f4dd4b105acb567ba9d1248dc9195fe31799b9f2bff5bde6fca584c773098d659a3
+    solid-js: ^2.0.3
+  checksum: 10c0/97e2289ad71a4807eab02de12988e417ccc4059c12e17adf2b6707e143c1a56660513aed6672d797580cbec4f0cc0eee573b5c7ac00f70804c7b85b03504f47d
   languageName: node
   linkType: hard
 
@@ -4032,7 +4032,7 @@ __metadata:
   resolution: "solid-js-vite@workspace:apps/solid-js-vite"
   dependencies:
     "@solidjs/vite-plugin": "npm:^3.0.1"
-    "@solidjs/web": "npm:^2.0.2"
+    "@solidjs/web": "npm:^2.0.3"
     "@total-typescript/ts-reset": "npm:^0.6.1"
     "@tsconfig/recommended": "npm:^1.0.14"
     "@types/node": "npm:^22.20.5"
