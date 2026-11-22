@@ -962,10 +962,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solidjs/signals@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@solidjs/signals@npm:2.0.1"
-  checksum: 10c0/49783ae7c9199a9529d4ce406983a4ae6054a63a538a55fc9b500439b53e8f098cce8f0acbe228d299717cc74195748c918ee1737c93f7f7270355cd6893092f
+"@solidjs/signals@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@solidjs/signals@npm:2.0.2"
+  checksum: 10c0/e91f0bc2b042c457e73468bc55a8f100435b0b59ef25452dce75eae224c26fc7f93e1725bb750d7474d7c5e9cde57fb0fe94ec7217fbf7fd09794b70723251ae
   languageName: node
   linkType: hard
 
@@ -4038,21 +4038,21 @@ __metadata:
     "@types/node": "npm:^22.20.5"
     npm-run-all: "npm:^4.1.5"
     sass: "npm:^1.108.2"
-    solid-js: "npm:^2.0.1"
+    solid-js: "npm:^2.0.2"
     typescript: "npm:^7.0.2"
     typescript-plugin-css-modules: "npm:^5.3.0"
     vite: "npm:^8.3.8"
   languageName: unknown
   linkType: soft
 
-"solid-js@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "solid-js@npm:2.0.1"
+"solid-js@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "solid-js@npm:2.0.2"
   dependencies:
-    "@solidjs/signals": "npm:^2.0.1"
+    "@solidjs/signals": "npm:^2.0.2"
     seroval: "npm:^1.8.0"
     seroval-plugins: "npm:^1.8.0"
-  checksum: 10c0/87f4a28b0be9ca110d80378225976d440500817d24ad7afd42fe58948eb20ec99a2b462e0bee90b7027198c6db88c9f33c9725a7d1924c879dc558be5e5fefef
+  checksum: 10c0/4e2ed9fb2bcf88b1633e41ec492578b9ae4a0cbbaef6acc61d3bc8335bcf9f5570633aba5b27d87917a17e2b3cc7056880a5f7852b8f5c20f46961cfb6a14d8a
   languageName: node
   linkType: hard
 

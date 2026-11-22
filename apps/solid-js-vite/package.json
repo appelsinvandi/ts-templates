@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@solidjs/web": "^2.0.2",
-    "solid-js": "^2.0.1"
+    "solid-js": "^2.0.2"
   },
   "devDependencies": {
     "@solidjs/vite-plugin": "^3.0.1",
