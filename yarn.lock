@@ -3651,7 +3651,7 @@ __metadata:
     react-dom: "npm:^19.3.1"
     sass: "npm:^1.108.2"
     typescript: "npm:^7.0.2"
-    typescript-plugin-css-modules: "npm:^5.3.0"
+    typescript-plugin-css-modules: "npm:^5.3.1"
     vite: "npm:^8.3.8"
   languageName: unknown
   linkType: soft
@@ -4040,7 +4040,7 @@ __metadata:
     sass: "npm:^1.108.2"
     solid-js: "npm:^2.0.3"
     typescript: "npm:^7.0.2"
-    typescript-plugin-css-modules: "npm:^5.3.0"
+    typescript-plugin-css-modules: "npm:^5.3.1"
     vite: "npm:^8.3.8"
   languageName: unknown
   linkType: soft
@@ -4388,9 +4388,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-plugin-css-modules@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "typescript-plugin-css-modules@npm:5.3.0"
+"typescript-plugin-css-modules@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "typescript-plugin-css-modules@npm:5.3.1"
   dependencies:
     "@types/postcss-modules-local-by-default": "npm:^4.0.2"
     "@types/postcss-modules-scope": "npm:^3.0.4"
@@ -4413,7 +4413,7 @@ __metadata:
   dependenciesMeta:
     stylus:
       optional: true
-  checksum: 10c0/0b0e67ee67d796102a80d0b20eaa6b2fd0f52feb99fc2b8995b5ac3e7f9f8dfead7b246160f717886b02750506dff19dfb6d5aaca479e54eef465e3cfc9f1b99
+  checksum: 10c0/d328e628174c587dcf8c1f2e9f77e363e67d6abcf3bdfddba5fa53e268e4372baf6f0f10974dea28fdb0154577deb72e96ab19363b544ae96c7cb871a4943535
   languageName: node
   linkType: hard
 
